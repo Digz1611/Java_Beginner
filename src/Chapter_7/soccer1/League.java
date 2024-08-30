@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package Chapter_6.soccer2;
+package Chapter_7.soccer1;
 
 /**
  *
@@ -17,6 +17,7 @@ public class League {
      */
     public static void main(String[] args) {
         
+        // Start of code that builds teams
         // Create team1      
         Player player1 = new Player();
         player1.playerName = "Gabriel Martinelli";
@@ -40,8 +41,10 @@ public class League {
         team2.playerArray[1].playerName = "Rodri";
         team2.playerArray[2] = new Player();
         team2.playerArray[2].playerName = "Erling Haaland";
-
         
+        // End of code that builds teams
+        
+    
         Game currGame = new Game();
         currGame.homeTeam = team1;
         currGame.awayTeam = team2;
@@ -56,5 +59,26 @@ public class League {
                 currGame.goals[0].theTime + " mins by " +
                 currGame.goals[0].thePlayer.playerName + " of " +
                 currGame.goals[0].theTeam.teamName);
+        
+        
+
+        for (Player thePlayer: team2.playerArray) {
+            //System.out.println(thePlayer.playerName);
+            if (thePlayer.playerName.matches(".*Sab.*")) {
+                System.out.println("Found " + thePlayer.playerName);
+                System.out.println("Last name is " + thePlayer.playerName.split(" ")[1]);
+            }
+        }
+        
+        StringBuilder familyNameFirst = new StringBuilder();
+        for (Player thePlayer: team1.playerArray) {
+            String[] name = thePlayer.playerName.split(" ");
+            familyNameFirst.append(name[1]);
+            familyNameFirst.append(", ");
+            familyNameFirst.append(name[0]);
+            System.out.println(familyNameFirst);
+            familyNameFirst.delete(0,familyNameFirst.length());
+            
+        } 
     }   
 }
