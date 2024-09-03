@@ -1,5 +1,4 @@
-package Chapter_8.Excercise_2;
-
+package Chapter_8.Practice_2.utility;
 public class ShoppingCart {
 
     public static void main(String[] args) {

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Practice-6_1.iml" filepath="$PROJECT_DIR$/Practice-6_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice-6_2/Practice-6_2.iml" filepath="$PROJECT_DIR$/Practice-6_2/Practice-6_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice-7_1/Practice-7_1.iml" filepath="$PROJECT_DIR$/Practice-7_1/Practice-7_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice-7_2/Practice-7_2.iml" filepath="$PROJECT_DIR$/Practice-7_2/Practice-7_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Chapter_6/Practice_6-1/Practice_6-1.iml" filepath="$PROJECT_DIR$/src/Chapter_6/Practice_6-1/Practice_6-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice_6-2/Practice_6-2.iml" filepath="$PROJECT_DIR$/Practice_6-2/Practice_6-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice_7-2/Practice_7-2.iml" filepath="$PROJECT_DIR$/Practice_7-2/Practice_7-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/my_source_code.iml" filepath="$PROJECT_DIR$/my_source_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/test/test/test.iml" filepath="$PROJECT_DIR$/src/test/test/test.iml" />
     </modules>
   </component>
 </project>
