@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/Practice_7-2/Practice_7-2.iml" filepath="$PROJECT_DIR$/Practice_7-2/Practice_7-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/my_source_code.iml" filepath="$PROJECT_DIR$/my_source_code.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/test/test/test.iml" filepath="$PROJECT_DIR$/src/test/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dummies-src/tester.iml" filepath="$PROJECT_DIR$/dummies-src/tester.iml" />
     </modules>
   </component>
 </project>
