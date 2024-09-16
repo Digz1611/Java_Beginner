@@ -157,7 +157,7 @@ public class Team implements Comparable, IDisplayDataItem {
     }
 
     /**
-     * @param getDetailType the getDetailType to set
+     * @param detailType the getDetailType to set
      */
     public void setGetDetailType(String detailType) {
         this.detailType = detailType;

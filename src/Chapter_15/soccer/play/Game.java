@@ -72,7 +72,7 @@ public class Game implements IDisplayDataItem {
                 
                 currEvent = currTeam.getNextPlayAttempt(currEvent);
 
-                // This is now the new currEvent so need to know if should change player and team
+                // This is now the new currEvent so need to know if it should change player and team
                 //currEvent.setTheTeam(currEvent.changeTeam()?getOtherTeam(currTeam): currTeam);
                 
                 // TODO for Shoot, ball should not move forward - should be same as end of prev event
@@ -296,7 +296,7 @@ public class Game implements IDisplayDataItem {
     }
 
     /**
-     * @param getDetailType the getDetailType to set
+     * @param detailType the getDetailType to set
      */
     public void setGetDetailType(String detailType) {
         this.detailType = detailType;

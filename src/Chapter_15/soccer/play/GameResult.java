@@ -25,7 +25,7 @@ public class GameResult {
     
     // Could we have list of scorers here? But why not get that from game.
     // Only advantage of GameResult is that it has result and winners,
-    // hence easier to get totalPoints. (Could also be useful for goal difference
+    // hence easier to get totalPoints. (Could also be useful for goal difference)
     // home/away goals etc.
     
     // Should GameResult be a member of Game? Seems not, as it'd then have to update 

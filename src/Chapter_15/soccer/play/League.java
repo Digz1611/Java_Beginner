@@ -225,7 +225,7 @@ public class League {
         int numTeams = theTeams.length;
 
         // Size of grid allow for extra column on the left for list of Teams, and two 
-        // extra columns on right for Points and Goals. Also extra column on top for list of
+        // extra columns on right for Points and Goals. Also, extra column on top for list of
         // Teams.
         IDisplayDataItem[][] theGrid = new IDisplayDataItem[numTeams + 1][numTeams + 3];
 
@@ -238,7 +238,7 @@ public class League {
         // Do the first row of Teams (headings);
         for (int i = 0; i < theTeams.length; i++) {
 
-            theTeams[i].setId(i);   // set the Id to the index
+            theTeams[i].setId(i);   // set the ID to the index
             theGrid[rowNum][colNum + 1] = theTeams[i];
             colNum++;
         }
@@ -247,7 +247,7 @@ public class League {
         theGrid[rowNum][colNum + 1] = new DisplayString("Points");
         theGrid[rowNum][colNum + 2] = new DisplayString("Goals");
 
-        // Add each row of Games for each home team (note all Team IDs will be set by previous for loop
+        // Add each row of Games for each home team (note all Team IDs will be set by previous for loop)
         // Also note rowNum = i + 1; therefore starting on second row.
         for (int i = 0; i < theTeams.length; i++) {
             rowNum = i + 1;
@@ -281,7 +281,7 @@ public class League {
     
     public void outputTextLeagueGrid(IDisplayDataItem[][] dataGrid) {
         
-        // It is simple to iterate throught the dataGrid and get each item. However, this outputTextLeagueGrid() method
+        // It is simple to iterate throughout the dataGrid and get each item. However, this outputTextLeagueGrid() method
         // will output a grid using monospaced text and therefore needs to calculate how wide to make each column.
 
         // First find the longest item in any column
@@ -317,7 +317,7 @@ public class League {
            
             System.out.print("|");  // Print last item in row
             System.out.println();   // Move to next row
-            System.out.println(separatorLine);  // Print howizontal separator line
+            System.out.println(separatorLine);  // Print horizontal separator line
         }
     }
         

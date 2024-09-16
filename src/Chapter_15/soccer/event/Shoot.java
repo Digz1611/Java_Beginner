@@ -15,7 +15,7 @@ public class Shoot extends GameEvent {
     // At the simplest, if successful dribbling moves towards the other teams goal
     public Shoot(){
         
-        // No change in ballPoss until next event; Goal or Kickout(save)
+        // No change in ballPoss until next event; Goal or Kick-out(save)
         
     }
     
@@ -37,7 +37,7 @@ public class Shoot extends GameEvent {
     }
     
         /**
-     * @param ballPos the ballPos to set
+     * @param currBallPos the ballPos to set
      */
     public void setBallPos(int currBallPos) {
         //super.setBallPos(currBallPos);
